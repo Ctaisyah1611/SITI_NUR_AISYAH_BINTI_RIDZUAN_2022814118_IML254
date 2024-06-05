@@ -1,0 +1,223 @@
+body{
+  background: #D6B4FC;
+}
+
+header {
+  background-color: #330066;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: Bradley Hand ITC;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #330066;
+}
+
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 60px 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #D6B4FC;
+  color: black;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #330066;
+  font-family: inherit;
+  margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #D6B4FC;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #330066;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #D6B4FC;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+p.title{
+  font-family: Monotype Corsiva; 
+  padding: -5px;
+  font-weight: bold ;
+  text-align: center ;
+  font-size: 50px ;
+}
+
+p.subtitle{
+  font-family: Lucida Console; 
+  text-align: center ;
+  font-size: 25px ;
+}
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+footer {
+  background-color: #330066;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  clear: both;
+  font-family: Bradley Hand ITC;
+}
+
+article {
+  background-color: #D6B4FC;
+  padding: 1em;
+  width: 1300px;
+  height: 400px;
+  margin: 0 auto;
+  border: 5px solid #E18728;
+  float: center;
+  font-size: 27px;
+  text-align: left;
+  word-spacing: 10px;
+  line-height: 35px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 10px
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: left;
+  height: 50%;
+  width: 40%;
+  font-size: 25px;
+}
+ 
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 0 15px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: -30;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); /
+  width: 94%;
+  padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .video-container video {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+.gotopbtn
+{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 30px;
+  text-decoration: none;
+  text-align: center;
+  text-color: white;
+  font-size: 20px;
+}
+
+div.scroll-container {
+  background-color: #330066;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+div.scroll-container img {
+  padding: 5px;
+}
