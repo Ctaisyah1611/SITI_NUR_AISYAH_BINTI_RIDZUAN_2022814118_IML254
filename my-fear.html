@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title> my fear </title>
+<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+  <h1> ♡ SYAA'S PERSONAL WEBSITE ♡</h1>
+</header>
+
+<hr>
+<nav>
+<div class="topnav">
+ <table cellspacing="10" cellpadding="10">
+ <tr>
+  <td><a href="index.html"> About Me </a> </td> 
+  <td><a href="family.html"> Family Members </a> </td>
+  <td><a href="friends.html"> Beloved Friends </a> </td>
+  <td><a href="favourite-thing.html"> Favourites </a> </td>
+<td class="dropdown">
+   <button class="dropbtn"> Syaa's Studio
+    <i class="fa fa-caret-down" style="color:white"></i>
+   </button>
+  <div class="dropdown-content">
+   <a href="syaa's-video.html"> Syaa's Video </a>
+   <a href="syaa's-picture.html"> Syaa's Picture </a> 
+  </div>
+</td>
+  <td><a href="my-fear.html"> What am I Afraid Of?</a> </td>
+  <td><a href="hobbies.html"> Things I Love To Do </a> </td>
+ </tr>
+</table>
+</div>
+</nav>
+<hr>
+
+<p class="title">
+Guess what is my fear?
+</p>
+
+<div class="container">
+  <img src="resources/image/my-fear1.jpg" alt="cat" style="width:100%;">
+  <div class="content">
+    <h1>Cat</h1>
+    <font size="4px" face="Lucida Console"><p>Yes, it is a cat. I am very afraid of cats, especially the little ones. They are very active and love to follow someone's legs. I am afraid that I will step on them. I also don't like when the cats fight among themself. They will pee everywhere and make that place messy. I am afraid of them because when I was little, a cat suddenly jumped at my thigh when I was eating. Then, I screamed and got out of that restaurant. After that incident, my fear is the cats. But sometimes, I will be okay if the cat sits properly and does not disturb me.</p></font>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+  <img src="resources/image/darkness.avif" alt="darkness" style="width:100%;">
+  <div class="content">
+    <h1>Darkness</h1>
+    <font size="4px" face="Lucida Console"><p>I'm someone who really can't stand darkness. It fills me with a deep sense of fear and unease, making me constantly wary of my surroundings. Even when I'm trying to sleep, I absolutely need some form of light in my room, even if it's just a faint glow. Without it, I find it incredibly difficult to sleep because my mind starts racing with all sorts of negative thoughts about what could happen in the darkness. My sister often gets annoyed with me for always insisting on having a light on before I sleep, but I can't help it – it's a fear that's deeply ingrained in me.</p></font>
+  </div>
+</div>
+
+<a href="#" class="gotopbtn" id="goTopBtn">
+   <img src="resources/icon/up.png" height="20px"> </a>
+</a>
+
+<script>
+var goTopBtn = document.getElementById("goTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    goTopBtn.style.display = "block";
+  } else {
+    goTopBtn.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<br><br><br><br>
+
+<footer>
+  <p> Find me here ⸜(｡˃ ᵕ ˂ )⸝♡: 
+  <a href="https://www.instagram.com/aisyahridzzz/" target="_blank"> 
+  <img src="resources/icon/instagram.svg" width="40px" align="center">
+  <a href="https://www.tiktok.com/@chaeryyyy.__" target="_blank"> 
+  <img src="resources/icon/tiktok.png" width="40px" align="center">
+</a>
+<p>&copy; 2024 Syaa's Website. All rights reserved.</p>
+
+<p>Last update:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</p>
+</footer>
+
+
+
+</body>
+</html>

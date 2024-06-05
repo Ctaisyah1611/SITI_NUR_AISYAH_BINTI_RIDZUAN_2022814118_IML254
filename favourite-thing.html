@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title> favourite thing </title>
+<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+  <h1> ♡ SYAA'S PERSONAL WEBSITE ♡</h1>
+</header>
+
+<hr>
+<nav>
+<div class="topnav">
+ <table cellspacing="10" cellpadding="10">
+ <tr>
+  <td><a href="index.html"> About Me </a> </td> 
+  <td><a href="family.html"> Family Members </a> </td>
+  <td><a href="friends.html"> Beloved Friends </a> </td>
+  <td><a href="favourite-thing.html"> Favourites </a> </td>
+<td class="dropdown">
+   <button class="dropbtn"> Syaa's Studio
+    <i class="fa fa-caret-down" style="color:white"></i>
+   </button>
+  <div class="dropdown-content">
+   <a href="syaa's-video.html"> Syaa's Video </a>
+   <a href="syaa's-picture.html"> Syaa's Picture </a> 
+  </div>
+</td>
+  <td><a href="my-fear.html"> What am I Afraid Of?</a> </td>
+  <td><a href="hobbies.html"> Things I Love To Do </a> </td>
+ </tr>
+</table>
+</div>
+</nav>
+<hr>
+
+<p class="title">
+Lists my favorite things ≽^•༚• ྀི≼
+</p>
+
+
+<ul>
+  <font size="5" face="Lucida Console">
+  <b><font color="#330066"><li>Favourite Color - Purple </li></font></b>
+   <br>
+   <img src="resources/image/purple-things.jpg" width="400px">
+    <p>I love purple so much, especially the pastel purple. The color is really attractive to me. If can, I want all my things in purple colour.</p>
+
+  <b><font color="#330066"><li> Favourite Food - Spaghetti Carbonara </li></font></b>
+   <br>   
+   <img src="resources/image/favourite-food.jpg" width="400px">
+   <p>It is my favourite or I can call it my comfort food. The taste of it is really incredible. Of course, the one that my mother makes is the best. I usually help her to cut the ingredients like sausage and carrots. The recipe also is very simple and easy to follow.</p>
+    
+  <b><font color="#330066"><li> Favourite Drink - Green Tea/Matcha </li></font></b>
+   <br>
+    <img src="resources/image/greentea.jpg" width="400px">
+     <p> Anywhere I go, I will try to find any matcha or green tea drink.</p> 
+
+
+  <b><font color="#330066"><li> Favourite Desert - Cheese Tart </li></font></b>
+   <br>
+    <img src="resources/image/cheese-tart.jpg" width="400px">
+     <p> Usually on any of my family member's birthdays, my mother bought these cheese tarts from our neighbor. It is quite big and of course, delicious. ^^ </p>
+
+
+  <b><font color="#330066"><li> Current Favourite Song - The Reasons of My Smiles by BSS </li></font></b>
+    <br>
+     <img src="resources/image/fav-song.jpg" width="400px">
+	<br> 
+     <audio controls>
+	<source src="resources/audio/the-reasons-of-my-smiles.mpeg" type="audio/mpeg">
+	</audio>
+     <p> This song become my current favorite song because of the Queen of Tears korean drama. The original soundtrack really touch my heart because of the lyrics. </p>
+
+
+  <b><font color="#330066"><li> Favourite Kdrama - Flower of Evil </li></font></b>
+   <br>
+    <img src="resources/image/flower-of-evil.jpeg" width="400px">
+     <p> This drama is about a detective who marries her friends. Everything was fine until she began to investigate a series of murders that involved her husband. I love the relationship between this couple because even what happens, her wife will trust him.</p>
+ 
+</ul>
+</font>
+
+
+<a href="#" class="gotopbtn" id="goTopBtn">
+   <img src="resources/icon/up.png" height="20px"> </a>
+</a>
+
+<script>
+var goTopBtn = document.getElementById("goTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    goTopBtn.style.display = "block";
+  } else {
+    goTopBtn.style.display = "none";
+  }
+}
+
+function topFunction() {
+    document.documentElement.scrollTop = 0; 
+}
+</script>
+
+
+
+<br><br><br><br>
+<footer>
+  <p> Find me here ⸜(｡˃ ᵕ ˂ )⸝♡: 
+  <a href="https://www.instagram.com/aisyahridzzz/" target="_blank"> 
+  <img src="resources/icon/instagram.svg" width="40px" align="center">
+  <a href="https://www.tiktok.com/@chaeryyyy.__" target="_blank"> 
+  <img src="resources/icon/tiktok.png" width="40px" align="center">
+</a>
+<p>&copy; 2024 Syaa's Website. All rights reserved.</p>
+
+<p>Last update:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</p>
+</footer>
+
+
+
+</body>
+</html>

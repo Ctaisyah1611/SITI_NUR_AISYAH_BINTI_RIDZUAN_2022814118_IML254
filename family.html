@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title> family </title>
+<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+  <h1> ♡ SYAA'S PERSONAL WEBSITE ♡</h1>
+</header>
+
+<hr>
+<nav>
+<div class="topnav">
+ <table cellspacing="10" cellpadding="10">
+ <tr>
+  <td><a href="index.html"> About Me </a> </td> 
+  <td><a href="family.html"> Family Members </a> </td>
+  <td><a href="friends.html"> Beloved Friends </a> </td>
+  <td><a href="favourite-thing.html"> Favourites </a> </td>
+<td class="dropdown">
+   <button class="dropbtn"> Syaa's Studio
+    <i class="fa fa-caret-down" style="color:white"></i>
+   </button>
+  <div class="dropdown-content">
+   <a href="syaa's-video.html"> Syaa's Video </a>
+   <a href="syaa's-picture.html"> Syaa's Picture </a> 
+  </div>
+</td>
+  <td><a href="my-fear.html"> What am I Afraid Of?</a> </td>
+  <td><a href="hobbies.html"> Things I Love To Do </a> </td>
+ </tr>
+</table>
+</div>
+</nav>
+<hr>
+
+<p class="title">
+My Precious People °❀⋆.ೃ࿔*:･
+</p>
+
+
+<article>
+  <img id="image" src="resources/image/beloved-family.jpg" width="40%" align="right">
+  <font face="Lucida Console"><p>This is my family that I cherish very much. My father works as a professional consultant and my mother works as a teacher in Bangi, Selangor. I am the firstborn of 4 siblings. My first younger sister is 19 years old and currently studying at KPTM Bangi. The other two are 15 years old and 14 years old and they are still studying in the same high school.</p>
+</article>
+
+
+<br><br><br><br>
+
+<article>
+  <img src="resources/image/mother-family.jpg" width="40%" height="100%" align="left">
+  <p> This is just half of my mother's side family. My mother has 6 siblings and she's the second child. The people in the picture are my uncle and cousin from Terengganu. He is my mother's younger brother and the third last of the siblings. This picture was taken before they went back after Eid al-Fitr this year. </p>
+</article>
+
+<br><br><br><br>
+
+<article>
+  <img src="resources/image/father-family.jpg" width="40%" align="right">
+  <p> This is my father's side family. All of them live in Johor except for my father. We usually visit them on holidays such as school holidays and Eid al-Fitr holiday. My father has 4 siblings and he is the oldest.</p>
+</article></font>
+
+<a href="#" class="gotopbtn" id="goTopBtn">
+   <img src="resources/icon/up.png" height="20px"> </a>
+</a>
+
+<script>
+var goTopBtn = document.getElementById("goTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    goTopBtn.style.display = "block";
+  } else {
+    goTopBtn.style.display = "none";
+  }
+}
+
+function topFunction() {
+    document.documentElement.scrollTop = 0; 
+}
+</script>
+
+
+<br><br><br><br>
+
+<footer>
+  <p> Find me here ⸜(｡˃ ᵕ ˂ )⸝♡: 
+  <a href="https://www.instagram.com/aisyahridzzz/" target="_blank"> 
+  <img src="resources/icon/instagram.svg" width="40px" align="center">
+  <a href="https://www.tiktok.com/@chaeryyyy.__" target="_blank"> 
+  <img src="resources/icon/tiktok.png" width="40px" align="center">
+</a>
+<p>&copy; 2024 Syaa's Website. All rights reserved.</p>
+
+<p>Last update:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</p>
+</footer>
+
+
+</body>
+</html>

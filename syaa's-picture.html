@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title> syaas picture </title>
+<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+img {
+  border: 7px solid #301934;
+  border-radius: 5px; 
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1> ♡ SYAA'S PERSONAL WEBSITE ♡</h1>
+</header>
+
+<hr>
+<nav>
+<div class="topnav">
+ <table cellspacing="10" cellpadding="10">
+ <tr>
+  <td><a href="index.html"> About Me </a> </td> 
+  <td><a href="family.html"> Family Members </a> </td>
+  <td><a href="friends.html"> Beloved Friends </a> </td>
+  <td><a href="favourite-thing.html"> Favourites </a> </td>
+<td class="dropdown">
+   <button class="dropbtn"> Syaa's Studio
+    <i class="fa fa-caret-down" style="color:white"></i>
+   </button>
+  <div class="dropdown-content">
+   <a href="syaa's-video.html"> Syaa's Video </a>
+   <a href="syaa's-picture.html"> Syaa's Picture </a> 
+  </div>
+</td>
+  <td><a href="my-fear.html"> What am I Afraid Of?</a> </td>
+  <td><a href="hobbies.html"> Things I Love To Do </a> </td>
+ </tr>
+</table>
+</div>
+</nav>
+<hr>
+
+<br><br>
+
+<div class="row"> 
+  <div class="column">
+    <img src="resources/image/food1.jpg" style="width:90%">
+    <img src="resources/image/mates1.jpg" style="width:100%">
+    <img src="resources/image/grandparents.jpg" style="width:90%">
+    <img src="resources/image/me2.jpg" style="width:90%">
+    <img src="resources/image/random1.jpg" style="width:90%">
+    <img src="resources/image/high-school-friends1.jpg" style="width:90%">
+  </div>
+
+  <div class="column">
+    <center><img src="resources/image/parents.jpg" style="width:90%"</center>
+    <img src="resources/image/high-school-friends2.jpg" style="width:90%">
+    <img src="resources/image/mates2.jpg" style="width:90%">
+    <img src="resources/image/mates4.jpg" style="width:90%">
+    <img src="resources/image/sibs1.jpg" style="width:90%">
+    <img src="resources/image/motherjpg.jpg" style="width:90%">
+   </div>
+
+  <div class="column">
+    <center><img src="resources/image/me4.jpg" style="width:80%"></center>
+    <img src="resources/image/mates6.jpg" style="width:100%">
+    <center><img src="resources/image/sibs2.jpg" style="width:80%"></cenetr>
+    <img src="resources/image/random3.jpg" style="width:100%">
+    <img src="resources/image/me3.jpg" style="width:100%">
+    <center><img src="resources/image/random2.jpg" style="width:90%"><center>
+    <img src="resources/image/classmate.jpg" style="width:90%">
+  </div>
+  </div>
+
+<a href="#" class="gotopbtn" id="goTopBtn">
+   <img src="resources/icon/up.png" height="20px"> </a>
+</a>
+
+<script>
+var goTopBtn = document.getElementById("goTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    goTopBtn.style.display = "block";
+  } else {
+    goTopBtn.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.documentElement.scrollTop = 0; 
+}
+</script>
+
+
+<br><br>
+
+<footer>
+  <p> Find me here ⸜(｡˃ ᵕ ˂ )⸝♡: 
+  <a href="https://www.instagram.com/aisyahridzzz/" target="_blank"> 
+  <img src="resources/icon/instagram.svg" width="40px" align="center">
+  <a href="https://www.tiktok.com/@chaeryyyy.__" target="_blank"> 
+  <img src="resources/icon/tiktok.png" width="40px" align="center">
+</a>
+<p>&copy; 2024 Syaa's Website. All rights reserved.</p>
+
+<p>Last update:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</p>
+</footer>
+
+</body>
+</html>

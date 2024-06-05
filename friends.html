@@ -1,0 +1,171 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title> friends </title>
+<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+  <h1> ♡ SYAA'S PERSONAL WEBSITE ♡</h1>
+</header>
+
+<hr>
+<nav>
+<div class="topnav">
+ <table cellspacing="10" cellpadding="10">
+ <tr>
+  <td><a href="index.html"> About Me </a> </td> 
+  <td><a href="family.html"> Family Members </a> </td>
+  <td><a href="friends.html"> Beloved Friends </a> </td>
+  <td><a href="favourite-thing.html"> Favourites </a> </td>
+<td class="dropdown">
+   <button class="dropbtn"> Syaa's Studio
+    <i class="fa fa-caret-down" style="color:white"></i>
+   </button>
+  <div class="dropdown-content">
+   <a href="syaa's-video.html"> Syaa's Video </a>
+   <a href="syaa's-picture.html"> Syaa's Picture </a> 
+  </div>
+</td>
+  <td><a href="my-fear.html"> What am I Afraid Of?</a> </td>
+  <td><a href="hobbies.html"> Things I Love To Do </a> </td>
+ </tr>
+</table>
+</div>
+</nav>
+<hr>
+
+<p class="title">
+So, these are my buddies ੈ✩‧₊˚
+</p>
+
+<p><font size="5px" face="Lucida Console">High School Friends</p></font>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="resources/image/high-school-friends1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="resources/image/high-school-friends2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="resources/image/high-school-friends3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="resources/image/high-school-friends5.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="resources/image/high-school-friends4.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<p><font size="5px" face="Lucida Console">Collage Friends</p>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="resources/image/uni-friends1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="resources/image/uni-friends2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="resources/image/uni-friends3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="resources/image/uni-friends4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="resources/image/uni-friends5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="resources/image/classmate.jpg" style="width:100%">
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+<a href="#" class="gotopbtn" id="goTopBtn">
+   <img src="resources/icon/up.png" height="20px"> </a>
+</a>
+
+<script>
+var goTopBtn = document.getElementById("goTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    goTopBtn.style.display = "block";
+  } else {
+    goTopBtn.style.display = "none";
+  }
+}
+
+function topFunction() {
+    document.documentElement.scrollTop = 0; }
+</script>
+
+
+<br><br>
+
+<footer>
+  <p> Find me here ⸜(｡˃ ᵕ ˂ )⸝♡: 
+  <a href="https://www.instagram.com/aisyahridzzz/" target="_blank"> 
+  <img src="resources/icon/instagram.svg" width="40px" align="center">
+  <a href="https://www.tiktok.com/@chaeryyyy.__" target="_blank"> 
+  <img src="resources/icon/tiktok.png" width="40px" align="center">
+</a>
+<p>&copy; 2024 Syaa's Website. All rights reserved.</p>
+
+<p>Last update:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</p>
+</footer>
+
+
+</body>
+</html>
